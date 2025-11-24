@@ -1,0 +1,76 @@
+======================================================================
+ASCON PERFORMANCE TEST RESULTS
+Timestamp: 2025-11-22 12:00:47
+Algorithm: Ascon-128
+Iterations: 1000
+======================================================================
+
+
+SMALL DATA
+----------------------------------------------------------------------
+Plaintext size: 54 bytes
+
+Encryption:
+  Min:    0.6698 ms
+  Max:    6.9021 ms
+  Mean:   0.8984 ms
+  Median: 0.6898 ms
+  StdDev: 0.7027 ms
+
+Decryption:
+  Min:    0.6554 ms
+  Max:    5.0119 ms
+  Mean:   0.8500 ms
+  Median: 0.6780 ms
+  StdDev: 0.5037 ms
+
+Throughput:
+  Encryption: 58.70 KB/s
+  Decryption: 62.04 KB/s
+
+
+MEDIUM DATA
+----------------------------------------------------------------------
+Plaintext size: 146 bytes
+
+Encryption:
+  Min:    1.3731 ms
+  Max:    11.5002 ms
+  Mean:   1.8350 ms
+  Median: 1.4475 ms
+  StdDev: 1.0050 ms
+
+Decryption:
+  Min:    1.3673 ms
+  Max:    21.9733 ms
+  Mean:   1.8471 ms
+  Median: 1.4545 ms
+  StdDev: 1.1717 ms
+
+Throughput:
+  Encryption: 77.70 KB/s
+  Decryption: 77.19 KB/s
+
+
+LARGE DATA
+----------------------------------------------------------------------
+Plaintext size: 369 bytes
+
+Encryption:
+  Min:    2.9533 ms
+  Max:    13.4901 ms
+  Mean:   3.8620 ms
+  Median: 3.3488 ms
+  StdDev: 1.2970 ms
+
+Decryption:
+  Min:    2.9800 ms
+  Max:    15.6577 ms
+  Mean:   3.9057 ms
+  Median: 3.3778 ms
+  StdDev: 1.3217 ms
+
+Throughput:
+  Encryption: 93.31 KB/s
+  Decryption: 92.26 KB/s
+
