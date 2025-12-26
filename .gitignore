@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Arduino
+*.hex
+*.eep
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Config files with sensitive data
+config.py
+secrets.h
+credentials.json
+
+# Build files
+build/
+dist/
+*.egg-info/
